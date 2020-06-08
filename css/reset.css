@@ -1,0 +1,72 @@
+@charset "utf-8"; 
+
+/* RESET ---------------------------------------------------------------- */ 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline; } 
+:root { overflow-y: scroll !important; } 
+html {background:#ffffff;} 
+body {
+	color: #999;
+	font: 12px/26px Arial,Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	min-width: 960px;
+	text-align: left;
+	-webkit-text-size-adjust: none;
+	text-align:left;
+} 
+body#sub {background:url(../img/bg/vision/header.jpg) 50% 0 no-repeat;overflow:auto;}
+body#cont {background:url(../img/bg/imageCTC.jpg) 50% 0 no-repeat;overflow:auto;}
+.opera body { text-shadow: none !important; } 
+*:focus { outline: 0 none; }
+
+/* HTML5 ---------------------------------------------------------------- */ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+/* TYPOGRAFIA ----------------------------------------------------------- */ 
+strong, b, dfn, mark { font-weight: bold; } 
+q, cite, em, i, dfn, mark { font-style: italic; } 
+u { text-decoration: underline; } 
+ins, dfn, mark { color: #326dba; } 
+ins { text-decoration: none; } 
+del, s { text-decoration: line-through; } 
+dfn { } 
+mark { } 
+time { } 
+sup, sub { font-size: 0.75em; line-height: 0; vertical-align: super; } 
+sub { vertical-align: sub; } 
+acronym[title], abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; } 
+samp, var, pre, code, tt, kbd { color: #006000; font-family: "Courier New", Courier, monospace; } 
+h1, h2, h3, h4, h5, h6, p, address, ul, ol, dl, table { margin-bottom: 16px; } 
+address { font-style: normal; } 
+
+/* NAGŁÓWKI ------------------------------------------------------------- */ 
+h1, h2, h3, h4, h5, h6, legend {  font-weight: normal; } 
+h2, legend { font-size: 18px; line-height: 20px; } 
+h3 { font-size: 14px; line-height: 16px; font-weight: bold; } 
+h4 { font-weight: bold; } 
+h5, h6 { font-weight: bold; margin-bottom: 8px } 
+h6 { color: #6e7685; } 
+hgroup { } 
+
+/* LINKI ---------------------------------------------------------------- */ 
+a {outline:none;color:#ababab;}
+a:link { color: #ababab; text-decoration: none; } 
+a:visited { color: #ababab; } 
+a:active, a:hover { color: #ababab; text-decoration:none;} 
+
+/* LISTY ---------------------------------------------------------------- */ 
+dl { } 
+dt { color: #06408b; font-weight: bold; } 
+dd { margin: 8px 0 16px 20px; } 
+ul, ol { -moz-padding-start: 0; -webkit-padding-start: 0; } 
+ul { list-style-type: disc; margin-left: 0; } 
+ol { list-style-type: decimal; margin-left: 0; } 
+ul ul { list-style-type: circle; } 
+ol ol { list-style-type: lower-alpha; } 
+ul ul, ul ol, ul dl, ol ul, ol ol, ol dl, dl ul, dl ol { margin-bottom: 0; } 
+li { margin: 12px 0;list-style:none;} 
+
+/* OBJECTS, IFRAMES, OBRAZY I LINIE ------------------------------------- */ 
+img { border: 0 none; } 
+object, iframe, embed { display: block; } 
+hr { display: none; }
+
+.skip {display:none;}
